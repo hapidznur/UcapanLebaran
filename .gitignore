@@ -125,4 +125,5 @@ env.bak/
 venv.bak/
 pip-selfcheck.json
 
+uploads/**
 # End of https://www.gitignore.io/api/venv,flask
