@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Ucapan Lebaran</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data">
+    {{ form.hidden_tag() }}
+    {{ form.file }}
+    {{ form.body(cols="35", rows="20") }}
+    <input type="submit">
+</form>
+</body>
+</html>
